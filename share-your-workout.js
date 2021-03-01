@@ -1,7 +1,7 @@
 class GarminShare{
 	
 	static sendButtonSelector = '[data-target="#send-to-device"]';
-	static getWorkoutEndpoint = 'https://connect.garmin.com/modern/proxy/workout-service/workout/';
+	static getWorkoutEndpoint = 'https://connect.garmin.com/modern/workout/';
 
 
 	static addEvents(){
@@ -74,7 +74,7 @@ GarminShare.addEvents();
 class GarminImport{
 	
 	static createWorkoutButtonSelector = 'button.create-workout';
-	static addWorkoutEndpoint = 'https://connect.garmin.com/modern/proxy/workout-service/workout';
+	static addWorkoutEndpoint = 'https://connect.garmin.com/modern/workout/';
 
 	static deleteProps = [
 		'workoutId',
